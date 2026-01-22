@@ -1,1 +1,0 @@
-{"version":3,"file":"Offer.d.ts","sourceRoot":"","sources":["../../../src/models/listing/Offer.ts"],"names":[],"mappings":"AAAA,OAAO,EAAiB,KAAK,EAAY,MAAM,sBAAsB,CAAC;AAEtE,qBACa,KAAM,SAAQ,KAAK;IAE9B,SAAS,EAAG,MAAM,CAAC;IAGnB,OAAO,EAAG,MAAM,CAAC;IAGjB,MAAM,CAAC,EAAE,MAAM,CAAC;IAGhB,OAAO,CAAC,EAAE,MAAM,CAAC;IAGjB,MAAM,EAAG,MAAM,CAAC;CACjB"}
