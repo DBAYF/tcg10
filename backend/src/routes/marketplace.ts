@@ -1,10 +1,11 @@
 import express from 'express';
+import { getListings, getListing, getUserListings } from '../controllers/marketplace';
 
 const router = express.Router();
 
-// TODO: Implement marketplace routes
-router.get('/listings', (req, res) => {
-  res.json({ message: 'Get marketplace listings' });
-});
+// Marketplace routes
+router.get('/listings', getListings);
+router.get('/listings/:id', getListing);
+router.get('/user/:userId/listings', getUserListings);
 
 export default router;

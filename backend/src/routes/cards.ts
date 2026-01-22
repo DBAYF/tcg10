@@ -1,14 +1,11 @@
 import express from 'express';
+import { getCards, getCard, getCardSets } from '../controllers/cards';
 
 const router = express.Router();
 
-// TODO: Implement card routes
-router.get('/', (req, res) => {
-  res.json({ message: 'Get cards' });
-});
-
-router.get('/:id', (req, res) => {
-  res.json({ message: 'Get card by ID' });
-});
+// Card routes
+router.get('/', getCards);
+router.get('/:id', getCard);
+router.get('/sets', getCardSets);
 
 export default router;
