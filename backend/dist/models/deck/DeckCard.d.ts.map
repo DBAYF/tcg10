@@ -1,0 +1,1 @@
+{"version":3,"file":"DeckCard.d.ts","sourceRoot":"","sources":["../../../src/models/deck/DeckCard.ts"],"names":[],"mappings":"AAAA,OAAO,EAAiB,KAAK,EAAY,MAAM,sBAAsB,CAAC;AAEtE,qBACa,QAAS,SAAQ,KAAK;IAEjC,MAAM,EAAG,MAAM,CAAC;IAGhB,MAAM,EAAG,MAAM,CAAC;IAGhB,QAAQ,EAAG,MAAM,CAAC;IAGlB,KAAK,CAAC,EAAE,MAAM,CAAC;CAChB"}
